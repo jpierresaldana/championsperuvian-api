@@ -1,4 +1,4 @@
-class ChampionsController < ApplicationController
+class Api::V1::ChampionsController < ApplicationController
   before_action :set_champion, only: %w[show update destroy]
 
   def index
