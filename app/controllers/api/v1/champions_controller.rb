@@ -6,7 +6,6 @@ class Api::V1::ChampionsController < ApplicationController
     render json: champions.to_json(
       only: %i[id name_first name_second year num_cups_champ]
     ), status: 200
-    # raise
   end
 
   def show
@@ -20,19 +19,31 @@ class Api::V1::ChampionsController < ApplicationController
   end
 
   def create
-    champion = Champion.new(champions_params)
+    champion = Character.new(champions_params)
     champion.save
-    # if character.save
-    # else
-    # end
+    if character.save
+      render json: champion, status: 201
+    else
+      render json: {status: 422, error: "Error creating"}, status: :unprocesable_entity
+    end
   end
 
   def update
-    champion.update!(champions_params)
+    if @champion
+      @champion.update(champions_params)
+      render json: {message: "Record updated correctly"}, status: 200
+    else
+      render json: {status: 404, message: "Champion not found"}, status: 404
+    end
   end
 
   def destroy
-    champion.destroy
+    if @champions
+      @champions.destroy
+      render json: {message: "Record deleted"}, status: 200
+    else
+      render json: {status: 404, message: "Champion not found"}, status: 404
+    end
   end
 
   private
