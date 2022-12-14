@@ -38,8 +38,8 @@ class Api::V1::ChampionsController < ApplicationController
   end
 
   def destroy
-    if @champions
-      @champions.destroy
+    if @champion
+      @champion.destroy
       render json: {message: "Record deleted"}, status: 200
     else
       render json: {status: 404, message: "Champion not found"}, status: 404
