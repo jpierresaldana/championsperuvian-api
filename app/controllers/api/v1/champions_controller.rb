@@ -19,9 +19,9 @@ class Api::V1::ChampionsController < ApplicationController
   end
 
   def create
-    champion = Character.new(champions_params)
+    champion = Champion.new(champions_params)
     champion.save
-    if character.save
+    if champion.save
       render json: champion, status: 201
     else
       render json: {status: 422, error: "Error creating"}, status: :unprocesable_entity
