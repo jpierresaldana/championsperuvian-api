@@ -811,25 +811,93 @@ champion = Champion.new(
 champion.save
 puts "Created champion 95"
 
-# puts "Champion 96"
-# champion = Champion.new(
-#   name_first: "",
-#   name_second: "",
-#   year: "",
-#   num_cups_champ: ""
-# )
-# champion.save
-# puts "Created champion 96"
+# year: "2012"	"Sporting Cristal	Real Garcilaso"
+puts "Champion 96"
+champion = Champion.new(
+  name_first: "Sporting Cristal",  name_second: "Real Garcilaso", year: "2012", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 96"
 
-# puts "Champion "
-# champion = Champion.new(
-#   name_first: "",
-#   name_second: "",
-#   year: "",
-#   num_cups_champ: ""
-# )
-# champion.save
-# puts "Created champion "
+# year: "2013"	"Universitario de Deportes	Real Garcilaso"
+puts "Champion 97"
+champion = Champion.new(
+  name_first: "Universitario de Deportes", name_second: "Real Garcilaso", year: "2013", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 97"
+
+# year: "2014"	"Sporting Cristal	Juan Aurich"
+puts "Champion 98"
+champion = Champion.new(
+  name_first: "Sporting Cristal", name_second: "Juan Aurich", year: "2014", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 98"
+
+# year: "2015"	"F. B. C. Melgar	Sporting Cristal"
+puts "Champion 99"
+champion = Champion.new(
+  name_first: "F. B. C. Melgar", name_second: "Sporting Cristal", year: "2015", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 99"
+
+# year: "2016"	"Sporting Cristal	F. B. C. Melgar"
+puts "Champion 100"
+champion = Champion.new(
+  name_first: "Sporting Cristal", name_second: "F. B. C. Melgar", year: "2016", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 101"
+
+# year: "2017"	"Alianza Lima	Real Garcilaso"
+puts "Champion 102"
+champion = Champion.new(
+  name_first: "Alianza Lima", name_second: "Real Garcilaso", year: "2017", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 102"
+
+# year: "2018"	"Sporting Cristal	Alianza Lima"
+puts "Champion 103"
+champion = Champion.new(
+  name_first: "Sporting Cristal", name_second: "Alianza Lima", year: "2018", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 103"
+
+# year: "2019"	"Binacional	Alianza Lima"
+puts "Champion 104"
+champion = Champion.new(
+  name_first: "Binacional", name_second: "Alianza Lima", year: "2019", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 104"
+
+# year: "2020"	"Sporting Cristal	Universitario de Deportes"
+puts "Champion 105"
+champion = Champion.new(
+  name_first: "Sporting Cristal", name_second: "Universitario de Deportes", year: "2020", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 105"
+
+# year: "2021"	"Alianza Lima“	“Sporting Cristal"
+puts "Champion 106"
+champion = Champion.new(
+  name_first: "Alianza Lima", name_second: "Sporting Cristal", year: "2021", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 106"
+
+# year: "2022"	"Alianza Lima“	“F. B. C. Melgar"
+puts "Champion 107"
+champion = Champion.new(
+  name_first: "Alianza Lima", name_second: "F. B. C. Melgar", year: "2022", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 107"
 
 # puts "Champion "
 # champion = Champion.new(
@@ -914,17 +982,3 @@ puts "Created champion 95"
 puts "----------------------------------------------------------------------------------------------------------"
 puts "Completed"
 puts "----------------------------------------------------------------------------------------------------------"
-
-
-
-# year: "2012"	"Sporting Cristal	Real Garcilaso"
-# year: "2013"	"Universitario de Deportes	Real Garcilaso"
-# year: "2014"	"Sporting Cristal	Juan Aurich"
-# year: "2015"	"F. B. C. Melgar	Sporting Cristal"
-# year: "2016"	"Sporting Cristal	F. B. C. Melgar"
-# year: "2017"	"Alianza Lima	Real Garcilaso"
-# year: "2018"	"Sporting Cristal	Alianza Lima"
-# year: "2019"	"Binacional	Alianza Lima"
-# year: "2020"	"Sporting Cristal	Universitario de Deportes"
-# year: "2021"	"Alianza Lima“	“Sporting Cristal"
-# year: "2022"	"Alianza Lima“	“F. B. C. Melgar"
