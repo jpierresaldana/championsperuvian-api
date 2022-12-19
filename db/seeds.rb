@@ -715,7 +715,103 @@ champion = Champion.new(
 champion.save
 puts "Created champion 83"
 
-# puts "Champion "
+# year: "2000"	"Universitario de Deportes	Sporting Cristal"
+puts "Champion 84"
+champion = Champion.new(
+  name_first: "Universitario de Deportes", name_second: "Sporting Cristal", year: "2000", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 84"
+
+# year: "2001"	"Alianza Lima	Cienciano"
+puts "Champion 85"
+champion = Champion.new(
+  name_first: "Alianza Lima", name_second: "Cienciano", year: "2001", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 85"
+
+# year: "2002"	"Sporting Cristal	Universitario de Deportes"
+puts "Champion 86"
+champion = Champion.new(
+  name_first: "Sporting Cristal", name_second: "Universitario de Deportes", year: "2002", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 86"
+
+# year: "2003"	"Alianza Lima	Sporting Cristal"
+puts "Champion 87"
+champion = Champion.new(
+  name_first: "Alianza Lima", name_second: "Sporting Cristal", year: "2003", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 87"
+
+# year: "2004"	"Alianza Lima	Sporting Cristal"
+puts "Champion 88"
+champion = Champion.new(
+  name_first: "Alianza Lima", name_second: "Sporting Cristal", year: "2004", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 88"
+
+# year: "2005"	"Sporting Cristal	Cienciano"
+puts "Champion 89"
+champion = Champion.new(
+  name_first: "Sporting Cristal", name_second: "Cienciano",year: "2005", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 89"
+
+# year: "2006"	"Alianza Lima	Cienciano"
+puts "Champion 90"
+champion = Champion.new(
+  name_first: "Alianza Lima", name_second: "Cienciano", year: "2006", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 90"
+
+# year: "2007"	"Univ. San Martín de Porres	Coronel Bolognesi"
+puts "Champion 91"
+champion = Champion.new(
+  name_first: "Univ. San Martín de Porres", name_second: "Coronel Bolognesi", year: "2007", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 91"
+
+# year: "2008"	"Univ. San Martín de Porres	Universitario de Deportes"
+puts "Champion 92"
+champion = Champion.new(
+  name_first: "Univ. San Martín de Porres", name_second: "Universitario de Deportes", year: "2008", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 92"
+
+# year: "2009"	"Universitario de Deportes	Alianza Lima"
+puts "Champion 93"
+champion = Champion.new(
+  name_first: "Universitario de Deportes", name_second: "Alianza Lima", year: "2009", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 93"
+
+# year: "2010"	"Univ. San Martín de Porres	León de Huánuco"
+puts "Champion 94"
+champion = Champion.new(
+  name_first: "Univ. San Martín de Porres", name_second: "León de Huánuco", year: "2010", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 94"
+
+# year: "2011"	"Juan Aurich	Alianza Lima"
+puts "Champion 95"
+champion = Champion.new(
+  name_first: "Juan Aurich", name_second: "Alianza Lima", year: "2011", num_cups_champ: ""
+)
+champion.save
+puts "Created champion 95"
+
+# puts "Champion 96"
 # champion = Champion.new(
 #   name_first: "",
 #   name_second: "",
@@ -723,7 +819,7 @@ puts "Created champion 83"
 #   num_cups_champ: ""
 # )
 # champion.save
-# puts "Created champion "
+# puts "Created champion 96"
 
 # puts "Champion "
 # champion = Champion.new(
@@ -814,35 +910,13 @@ puts "Created champion 83"
 # )
 # champion.save
 # puts "Created champion "
-
-# puts "Champion "
-# champion = Champion.new(
-#   name_first: "",
-#   name_second: "",
-#   year: "",
-#   num_cups_champ: ""
-# )
-# champion.save
-# puts "Created champion "
-
 
 puts "----------------------------------------------------------------------------------------------------------"
 puts "Completed"
 puts "----------------------------------------------------------------------------------------------------------"
 
 
-# year: "2000"	"Universitario de Deportes	Sporting Cristal"
-# year: "2001"	"Alianza Lima	Cienciano"
-# year: "2002"	"Sporting Cristal	Universitario de Deportes"
-# year: "2003"	"Alianza Lima	Sporting Cristal"
-# year: "2004"	"Alianza Lima	Sporting Cristal"
-# year: "2005"	"Sporting Cristal	Cienciano"
-# year: "2006"	"Alianza Lima	Cienciano"
-# year: "2007"	"Univ. San Martín de Porres	Coronel Bolognesi"
-# year: "2008"	"Univ. San Martín de Porres	Universitario de Deportes"
-# year: "2009"	"Universitario de Deportes	Alianza Lima"
-# year: "2010"	"Univ. San Martín de Porres	León de Huánuco"
-# year: "2011"	"Juan Aurich	Alianza Lima"
+
 # year: "2012"	"Sporting Cristal	Real Garcilaso"
 # year: "2013"	"Universitario de Deportes	Real Garcilaso"
 # year: "2014"	"Sporting Cristal	Juan Aurich"
